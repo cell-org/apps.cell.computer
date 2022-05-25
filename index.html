@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Nuron apps</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Nuron apps" />
+<meta name="twitter:description" content="Secure deterministic apps for building and managing NFTs" />
+<meta name="twitter:image" content="https://apps.cell.computer/poster.png" />
+<meta property="og:url" content="https://apps.cell.computer" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Nuron apps" />
+<meta property="og:description" content="Secure deterministic apps for building and managing NFTs" />
+<meta property="og:image" content="https://apps.cell.computer/poster.png" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+<style>
+@font-face {
+  font-family: 'visitor';
+  src:  url('visitor1-webfont.woff2') format('woff2'),
+        url('visitor1-webfont.woff') format('woff');
+}
+body {
+  background: #1A1A20;
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.row {
+  background: #1A1A20;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 12px;
+  color: white;
+}
+.description {
+  color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  font-family: Menlo, monaco, monospace;
+  padding: 5px 0;
+}
+.url {
+  color: rgba(255,255,255,0.9);
+  font-size: 12px;
+  font-family: Menlo, monaco, monospace;
+}
+.row h4{
+  margin: 0;
+  font-size: 30px;
+  color: royalblue;
+  font-family: visitor;
+}
+a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+}
+.btn {
+  background: royalblue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+nav > * {
+  padding: 10px;
+  color: white;
+}
+nav img {
+  height: 30px;
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/"><img src="nuron.png"></a>
+</nav>
+<div class='row'>
+  <h4>Cell Script playground</h4>
+  <div class='url'>https://github.com/cell-org/script.cell.computer.git</div>
+  <div class='description'>An interactive web app to build cell scripts and get gas estimates in realtime</div>
+  <div class='btns'>
+    <a class='btn' href="nuron://install?git=https://github.com/cell-org/script.cell.computer.git"><i class="fa-solid fa-download"></i> Install on Nuron</a>
+    <a class='btn' href="https://github.com/cell-org/script.cell.computer.git"><i class="fa-brands fa-github"></i> View Code</a>
+  </div>
+</div>
+</body>
+</html>
